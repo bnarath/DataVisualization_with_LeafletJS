@@ -13,7 +13,8 @@ United States Geological Survey (USGS)[https://www.usgs.gov/]  is responsible fo
 - Legend for better insights
 - Tooltip with granular information
 
-## Application is deployed at 
+## Application is deployed at
+![image](DataVisualization_with_LeafletJS/Images/Colage.png)
 
 - - -
 
