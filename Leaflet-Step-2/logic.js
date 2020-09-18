@@ -111,7 +111,7 @@ function createFeatures(data){
         <p> <a href='${feature.properties.url}'>More information</a></p>
         `);
         // markers.addLayer(Layer);
-        Layer.setRadius(Math.round(40000/avg)*Math.round(feature.properties.mag));
+        Layer.setRadius(Math.round(30000/avg)*Math.round(feature.properties.mag));
         markers.push(Layer);
     })
 
@@ -149,8 +149,8 @@ function createMaps(earthQuakes){
     map = L.map("map", {
         //center : [39.8283, -98.5795],
         center: [29.48, -37.62],
-        zoom : 2,
-        layers: [dark_tile, earthQuakes]
+        zoom : 3,
+        layers: [light_tile, earthQuakes]
     });
 
 
