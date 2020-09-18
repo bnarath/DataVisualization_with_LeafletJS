@@ -16,5 +16,9 @@ United States Geological Survey (USGS)[https://www.usgs.gov/]  is responsible fo
 ## Application is deployed [here.](https://bnarath.github.io/DataVisualization_with_LeafletJS/) Check it out!
 ![image](Images/Colage.png)
 
+## CodeBase
+- [Javascript](static/js/logic.js)
+- [html](index.html)
+- [css](static/css/style.css)
 - - -
 
