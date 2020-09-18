@@ -1,4 +1,4 @@
-//Layers are globally defined
+//Layers are globally declared
 var light_tile, dark_tile, satelliteTile, outdoorTile, satelliteStreetTile, baseMaps, overlay, map, tectonicplates, earthQuakes;
 
 // URLs corresponding to earthquake geojson data in the last 7 days and tectonicplates data 
@@ -108,7 +108,7 @@ function createFeatures(data){
         <p>Coordinates: ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}</p>
         <p> Magnitude: ${feature.properties.mag} ${feature.properties.magType}</p>
         ${feature.properties.felt?"<p> Felt: "+feature.properties.felt+" "+feature.properties.magType:""+"  </p>"}
-        <p> <a href='${feature.properties.url}'>More information</a></p>
+        <p> <a target='_blank' href='${feature.properties.url}'>More information</a></p>
         `);
         // markers.addLayer(Layer);
         Layer.setRadius(Math.round(40000/avg)*Math.round(feature.properties.mag));
