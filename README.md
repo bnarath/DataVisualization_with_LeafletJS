@@ -1,4 +1,4 @@
-# Visualizing EarthQuake Data with Leaflet
+# Visualizing EarthQuake Data with Leaflet JS and Mapbox API
 United States Geological Survey (USGS)[https://www.usgs.gov/]  is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. In this project, we retrieve and visualize the USGS data to better educate the public and other government organizations through appealing visuals using (leaflet.JS)[https://leafletjs.com/] and (mapbox api)[https://www.mapbox.com/]. Along with the earthquake data, we also overlay a map to illustrate the relationship between tectonic plates and seismic activity for better insights.
 
 ## Data retrieval
