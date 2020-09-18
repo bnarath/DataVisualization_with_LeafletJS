@@ -14,7 +14,7 @@ United States Geological Survey (USGS)[https://www.usgs.gov/]  is responsible fo
 - Tooltip with granular information
 
 ## Application is deployed at
-![image](DataVisualization_with_LeafletJS/Images/Colage.png)
+![image](Images/Colage.png)
 
 - - -
 
